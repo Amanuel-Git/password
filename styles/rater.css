@@ -1,0 +1,39 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 1.5rem 0;
+}
+
+.report-box {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.strength-report-box {
+  display: none;
+  gap: 0.2rem;
+}
+
+.strength-report {
+  font-weight: bold;
+}
+
+.suggestion-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+
+.suggestion-title {
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+  text-decoration: underline;
+  display: none;
+}

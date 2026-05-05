@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Password generator and rater</title>
+		<link rel="stylesheet" href="../styles/style.css">
+		<link rel="stylesheet" href="../styles/generator.css">
+	</head>
+	<body>
+		<nav>
+			<div>
+				<p class="logo">Logo</p>
+			</div>
+
+			<div class="nav-links">
+				<a href="../index.html">Home</a>
+				<a href="generator.html">Password Generator</a>
+				<a href="rater.html">Password Rater</a>
+				<a href="contact.html">Contact Us</a>
+			</div>
+
+			<svg class="hamburger" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" width="30">
+				<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+				<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+				<g id="SVGRepo_iconCarrier">
+					<path d="M2 12.32H22" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+					<path d="M2 18.32H22" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+					<path d="M2 6.32001H22" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+				</g>
+			</svg>
+		</nav>
+
+		<main>
+			<h1>Password Generator</h1>
+
+			<form>
+				<input type="number" value="8" placeholder="Required password length" id="length-input">
+				<label>
+					<input type="checkbox" id="lowercase-checkbox">
+					lowercase
+				</label>
+				<label>
+					<input type="checkbox" id="uppercase-checkbox">
+					uppercase
+				</label>
+				<label>
+					<input type="checkbox" id="numbers-checkbox">
+					numbers
+				</label>
+				<label>
+					<input type="checkbox" id="symbols-checkbox">
+					special characters
+				</label>
+				<input type="submit" value="Generate password" id="submit" class="button">
+			</form>
+
+			<div class="password-box">
+				<p class="password-text"></p>
+				<button class="copy-password-btn">Copy</button>
+			</div>
+		</main>
+
+		<footer>
+			<h2 class="footer-title">Group 1 members list</h2>
+			<div class="members-box">
+				<div class="member-box">
+					<p>Abirham Demilew</p>
+					<p>BDU1600581</p>
+				</div>
+				<div class="member-box">
+					<p>Aklilu Genet</p>
+					<p>BDU1600857</p>
+				</div>
+				<div class="member-box">
+					<p>Amanu Minichl</p>
+					<p>BDU1600897</p>
+				</div>
+				<div class="member-box">
+					<p>Amanuel Getachew</p>
+					<p>BDU1600917</p>
+				</div>
+				<div class="member-box">
+					<p>Asinake Hailie</p>
+					<p>BDU1600649</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="../scripts/generator.js"></script>
+		<script src="../scripts/app.js"></script>
+	</body>
+</html>
