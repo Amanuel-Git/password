@@ -116,4 +116,7 @@ passwordBox.addEventListener("click", () => {
 
   navigator.clipboard.writeText(password);
   alert("Text copied to clipboard");
+  setTimeout(() => {
+    window.location.href = "../pages/rater.html?password=" + encodeURIComponent(password);
+  }, 500);
 });
